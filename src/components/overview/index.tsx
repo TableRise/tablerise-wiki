@@ -9,5 +9,5 @@ export default function Overview(): JSX.Element {
             </header>
             <Newsletter />
         </section>
-    )
+    );
 }

@@ -8,5 +8,5 @@ export default function Homepage(): JSX.Element {
             <Sidebar />
             <Overview />
         </section>
-    )
+    );
 }

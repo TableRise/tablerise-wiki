@@ -1,4 +1,4 @@
-import 'src/components/overview/styles/Newsletter.css'
+import 'src/components/overview/styles/Newsletter.css';
 
 export default function Newsletter(): JSX.Element {
     return (
@@ -7,5 +7,5 @@ export default function Newsletter(): JSX.Element {
                 <h2>Newsletter 📰</h2>
             </div>
         </section>
-    )
+    );
 }
