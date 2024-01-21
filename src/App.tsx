@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import PrivateRoute from 'src/components/PrivateRoute';
 import Homepage from './pages/Homepage';
 
-function App() {
+function App(): JSX.Element {
   return (
     <>
       <Routes>
