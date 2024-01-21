@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "TableRise wiki project to store and share info and content about tablerise",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
