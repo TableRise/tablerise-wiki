@@ -1,0 +1,8 @@
+.newsletter-component {
+    margin-left: 1rem;
+}
+
+.newsletter-component .header-newsletter h2 {
+    font-size: 1.8rem;
+    font-family: 'dm-sans', 'poppins', 'sans-serif';
+}

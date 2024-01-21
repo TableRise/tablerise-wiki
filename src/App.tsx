@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import PrivateRoute from 'src/components/PrivateRoute';
+import Homepage from './pages/Homepage';
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <Routes>
         <Route element={<PrivateRoute />}>
         </Route>
-        <Route path='/' element={<h1>TableRise Wiki</h1>} />
+        <Route path='/' element={<Homepage />} />
       </Routes>
     </>
   );

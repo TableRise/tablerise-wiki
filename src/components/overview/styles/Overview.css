@@ -1,0 +1,18 @@
+.overview-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.overview-page header {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 1rem 0;;
+}
+
+.overview-page header h1 {
+    font-size: 2rem;
+    font-family: 'poppins', 'sans-serif';
+}
+
+
