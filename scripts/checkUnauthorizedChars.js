@@ -1,4 +1,4 @@
-const packageJson = require('../package.json');
+import packageJson from '../app/frontend/package.json' assert { type: "json" };
 
 function checkUnauthorizedChars () {
   const deps = {

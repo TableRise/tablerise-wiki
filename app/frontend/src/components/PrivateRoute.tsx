@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Outlet, useNavigate } from 'react-router-dom';
 
-export default function PrivateRoute() {
+export default function PrivateRoute(): JSX.Element | null | '' {
     const navigate = useNavigate();
     const user = localStorage.getItem('user');
 

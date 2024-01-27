@@ -1,8 +1,8 @@
 name: continuous-delivery-action
 on: [pull_request]
 jobs:
-  backend:
-    name: 'Testing Backend'
+  frontend:
+    name: 'Testing Frontend'
     runs-on: ubuntu-latest
     permissions: write-all
     steps:
@@ -18,17 +18,21 @@ jobs:
 
       - name: Checking Package.json
         run: npm run check-lib
+        working-directory: './app/frontend'
 
       - name: Install dependencies
         run:  npm install
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GH_REGISTRY_PACKAGES }}
+        working-directory: './app/frontend'
 
       - name: Checking lint
         run:  npm run lint
+        working-directory: './app/frontend'
 
       - name: Checking prettier
         run:  npm run prettier
+        working-directory: './app/frontend'
 
       # - name: Up database container
       #   run: docker-compose up -d database-test

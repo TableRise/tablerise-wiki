@@ -1,0 +1,27 @@
+.sidebar-component {
+    background-color: var(--darker-bg-color-1);
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-component header {
+    font-family: 'garamond', 'sans-serif';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    align-self: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.sidebar-component header {
+    font-size: 1.5rem;
+}
+
+.sidebar-component header img {
+    width: 10%;
+    height: fit-content;
+    margin-right: 0.2rem;
+}
